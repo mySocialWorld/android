@@ -13,7 +13,7 @@
   },
   {
     "id": 3,
-    "name": "Tik Tunnel",
+    "name": "TikTunnel",
     "apiDomain": "https://a.flytalk.online/30/plus/ios2.php",
     "requiresPassword": false
   }
