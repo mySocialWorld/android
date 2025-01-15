@@ -1,20 +1,8 @@
 [
   {
-    "id": 1,
-    "name": "WorldVPN",
-    "apiDomain": "https://worldvpn.net/api/checkAuthiOS",
-    "requiresPassword": true
-  },
-  {
     "id": 2,
     "name": "WizzVPN",
     "apiDomain": "https://a.flytalk.online/30/plus/ios2.php",
-    "requiresPassword": false
-  },
-  {
-    "id": 3,
-    "name": "TikTunnel",
-    "apiDomain": "https://tiktunnel.com/plus/ios.php",
     "requiresPassword": false
   }
 ]
