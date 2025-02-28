@@ -8,13 +8,13 @@
   {
     "id": 2,
     "name": "WizzVPN",
-    "apiDomain": "https://a.flytalk.online/30/plus/ios2.php",
+    "apiDomain": "https://a.myappuae.xyz/30/plus/ios2.php",
     "requiresPassword": false
   },
   {
     "id": 3,
     "name": "TikTunnel",
-    "apiDomain": "https://tiktunnel.com/plus/ios.php",
+    "apiDomain": "https://d.myappuae.xyz/15/plus/ios.php",
     "requiresPassword": false
   }
 ]
