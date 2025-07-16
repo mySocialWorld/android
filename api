@@ -2,6 +2,6 @@
   {
     "id": 1,
     "name": "WorldVPN",
-    "apiDomain": "https://wvdapi.com/api/checkAuthApp",
+    "apiDomain": "https://wvdapi.com/api/checkAuthApp"
   }
 ]
