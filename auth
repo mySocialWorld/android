@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "WorldVPN",
-    "apiDomain": "https://worldvpn.net/api/checkAuthiOS",
+    "apiDomain": "https://worlddl.pw/api/checkAuthiOS",
     "requiresPassword": true
   },
   {
