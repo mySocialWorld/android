@@ -1,7 +1,7 @@
 [
   {
-    "checkAuth": "https://wvdapi.com/api/checkAuthiOS",
-    "listServers": "https://wvdapi.com/api/checkAuthiOS",
-    "showIP": "https://wvdapi.com/api/checkAuthiOS"
+    "checkAuth": "https://wvdapi.com/api/checkAuth",
+    "listServers": "https://wvdapi.com/api/listServersByUsername",
+    "showIP": "https://wvdapi.com/ip.php"
   }
 ]
