@@ -2,6 +2,8 @@
   {
     "checkAuth": "https://wvdapi.com/api/checkAuth",
     "listServers": "https://wvdapi.com/api/listServersByUsername",
-    "showIP": "https://wvdapi.com/ip.php"
+    "showIP": "https://wvdapi.com/ip.php",
+    "ovpn": "https://raw.githubusercontent.com/mySocialWorld/android/refs/heads/main/ovpn"
+
   }
 ]
