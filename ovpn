@@ -1,20 +1,29 @@
 client
 dev tun
-proto udp
-remote 193.238.153.002 80
+proto tcp
+remote at1.ocservvpn.com 80
 resolv-retry infinite
 tun-mtu 1500
 key-direction 1
 nobind
 persist-key
 persist-tun
-ns-cert-type server
+#ns-cert-type server
+remote-cert-tls server
 comp-lzo
-verb 1
+verb 3
 auth-user-pass
-route-method exe
+#route-method exe
 cipher AES-256-CBC
-status openvpn-status.log 1
+client-cert-not-required
+#dhcp-option DNS 8.8.8.8
+#dhcp-option DNS 8.8.4.4
+redirect-gateway def1
+
+# Prevent IPv6 leaks
+pull-filter ignore "route-ipv6"
+pull-filter ignore "ifconfig-ipv6"
+block-outside-dns
 
 <ca>
 -----BEGIN CERTIFICATE-----
