@@ -2,7 +2,7 @@
 client
 dev tun
 proto tcp
-remote de1.ocservvpn.com 80
+remote at1.ocservvpn.com 80
 resolv-retry infinite
 tun-mtu 1500
 key-direction 1
