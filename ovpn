@@ -8,22 +8,13 @@ key-direction 1
 nobind
 persist-key
 persist-tun
-#ns-cert-type server
-remote-cert-tls server
+ns-cert-type server
 comp-lzo
 verb 3
 auth-user-pass
-#route-method exe
+route-method exe
 cipher AES-256-CBC
-client-cert-not-required
-#dhcp-option DNS 8.8.8.8
-#dhcp-option DNS 8.8.4.4
-redirect-gateway def1
 
-# Prevent IPv6 leaks
-pull-filter ignore "route-ipv6"
-pull-filter ignore "ifconfig-ipv6"
-block-outside-dns
 
 <ca>
 -----BEGIN CERTIFICATE-----
