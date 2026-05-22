@@ -1,7 +1,8 @@
+
 client
 dev tun
 proto tcp
-remote at1.ocservvpn.com 80
+remote de1.ocservvpn.com 80
 resolv-retry infinite
 tun-mtu 1500
 key-direction 1
@@ -14,7 +15,9 @@ verb 3
 auth-user-pass
 route-method exe
 cipher AES-256-CBC
-
+pull-filter ignore "route-ipv6"
+pull-filter ignore "ifconfig-ipv6"
+block-outside-dns
 
 <ca>
 -----BEGIN CERTIFICATE-----
